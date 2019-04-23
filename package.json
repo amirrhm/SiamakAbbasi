@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "laravel-mix": "^4.0.15",
+    "pug": "^2.0.3",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.10.0",
+    "vue-router": "^3.0.5",
+    "vuex": "^3.1.0",
+    "webpack": "^4.30.0"
+  },
+  "name": "SiamakAbbasi-Vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.18.0",
+    "sass-loader": "7.*",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=development & node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "set NODE_ENV=development & node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

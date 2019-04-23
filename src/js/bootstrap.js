@@ -1,0 +1,12 @@
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Vuex from 'vuex';
+import VueI18n from 'vue-i18n';
+import './router';
+window.Vue = Vue;
+Vue.use(VueRouter);
+Vue.use(Vuex);
+// require('./directives/index');
+// require('./filters/index');
+Vue.use(VueI18n);
+require('./i18n');
