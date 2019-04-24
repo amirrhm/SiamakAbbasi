@@ -10,11 +10,15 @@ window.router = new VueRouter({
       path: '/auth/',
       component: require('./components/pages/auth/auth.vue'),
       children: [
-            {
-              path: 'login/',
-              component: require('./components/pages/auth/login.vue'),
-            }
-          ],
+        {
+          path: 'login/',
+          component: require('./components/pages/auth/login.vue'),
+        },
+        {
+          path: 'register/',
+          component: require('./components/pages/auth/register.vue'),
+        }
+      ],
     },
   ],
 
