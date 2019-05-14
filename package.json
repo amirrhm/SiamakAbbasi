@@ -2,7 +2,7 @@
   "name": "siamak-abbasi-project",
   "version": "1.0.0",
   "main": "src/index.js",
-  "author": "Amir <amirrhm@gmail.com>",
+  "author": "Amir Rahimzade <amirrhm@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "set NODE_ENV=development & node node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",

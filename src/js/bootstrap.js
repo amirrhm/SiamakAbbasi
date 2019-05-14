@@ -8,12 +8,8 @@ import VueI18n from 'vue-i18n';
 import VeeValidate from 'vee-validate';
 import messagesFa from './lang/validation/fa';
 import './router';
-import BootstrapVue from 'bootstrap-vue';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
-import 'node_modules/bootstrap/scss/bootstrap';
-import 'node_modules/bootstrap-vue/src/index.scss';
-import 'custom.scss';
+// import BootstrapVue from 'bootstrap-vue';
+// import 'node_modules/bootstrap/scss/bootstrap';
 
 
 require('es6-promise').polyfill();
